@@ -31,6 +31,19 @@ Install the Silicon Labs CP210x driver, restart the computer, reconnect the ESP3
 - Device manager is a handy tool to see if there's an issue with ports
 - The CP2102 chip converts USB from the computer into serial communcation for the esp32, i.e data transfer.
 
+### Maintanence/config setup Day (6/12/2026)
+
+## Goal (Pushed back)
+- use DHT22 sensor
+
+## Issue
+- My breadboard could not fit the esp32. I had enough spaces for one side, not the other
+
+##  SOlution
+- REmove a power rail from breadboard connect two boards together. Frankenstein BReadboard
+
+## What I learned Today
+-Bread boards are very modular
 
 
 
