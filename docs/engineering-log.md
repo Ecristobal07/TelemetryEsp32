@@ -45,6 +45,8 @@ Install the Silicon Labs CP210x driver, restart the computer, reconnect the ESP3
 ## What I learned Today
 -Bread boards are very modular
 
+#### 6/16/2026
+
 
 
 
