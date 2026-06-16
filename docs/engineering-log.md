@@ -47,6 +47,18 @@ Install the Silicon Labs CP210x driver, restart the computer, reconnect the ESP3
 
 # 6/16/2026
 
+## Goal: Read Data from DHT22 Sensor
+- I have a DHT22 sensor I want to read temp, humidity from
+
+## Investigation
+- https://esp32io.com/tutorials/esp32-dht22 is a very good source for tutorials
+- Connected a GIOP pin to the DHT22 Sensor
+- Connected GND and 3.3v to respective pins
+- Put sensor in different areas
+
+## Conclusion
+- DHT22 Sensor works, temp changes depending on location, as well as humidity. 
+
 
 
 
