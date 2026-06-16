@@ -57,7 +57,12 @@ Install the Silicon Labs CP210x driver, restart the computer, reconnect the ESP3
 - Put sensor in different areas
 
 ## Conclusion
-- DHT22 Sensor works, temp changes depending on location, as well as humidity. 
+- DHT22 Sensor works, temp changes depending on location, as well as humidity.
+
+## What I learned today
+I learned that power comes directly from the micro-usb cable
+I learned that each pin can do something different on esp32, or your code should relate to the respective pin you chose
+
 
 
 
