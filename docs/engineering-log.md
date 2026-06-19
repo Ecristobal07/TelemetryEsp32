@@ -66,8 +66,22 @@ I learned that each pin can do something different on esp32, or your code should
 
 
 
+# 6/19/2026
+
+## Goal 
+- I want to connect mpu6050 to esp32
+
+## Investigation
+- I tried to do it with an unsoldered mpu-sensore. It did not work. I bought another one.
+- THe new one did work.
+- I ran an example from Arduino IDE.
+
+## Conclusion
+- The sensor reads x, y, and z as well as rotation
+- actually pretty cool as spinning it increases the rotation in rad/s.
+- Also note the z axis does actually have 9.8 m/s^2 and when you flip it, well it changes lol.
 
 
-  
-
-
+# Part 1 is complete
+- All sensors work seperately.
+- The next thing to do is to connect all of them together and have a UI. This is part 2
