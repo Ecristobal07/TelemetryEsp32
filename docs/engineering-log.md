@@ -85,3 +85,34 @@ I learned that each pin can do something different on esp32, or your code should
 # Part 1 is complete
 - All sensors work seperately.
 - The next thing to do is to connect all of them together and have a UI. This is part 2
+
+
+## 6/23/2026 Full Sensor Telemetry Integration
+
+### Goal
+Integrate the DHT22, photoresistor, MPU6050, and LED into one ESP32 telemetry system.
+
+### What I tried
+- Connected the DHT22 for temperature and humidity.
+- Connected the photoresistor voltage divider for light/solar exposure.
+- Connected the MPU6050 through I2C using GPIO21 for SDA and GPIO22 for SCL.
+- Connected an LED status indicator.
+- Uploaded combined telemetry code to the ESP32.
+
+### Result
+The ESP32 successfully printed combined telemetry packets over serial, including temperature, humidity, light level, accelerometer data, gyroscope data, and system status.
+
+### Problem
+The MPU6050 initially failed to initialize in the combined setup.
+
+### Investigation
+Checked I2C wiring, power rail connections, and the use of GPIO21/GPIO22 for SDA/SCL.
+
+### Conclusion
+The combined sensor system works when the MPU6050 is correctly powered and connected over I2C.
+
+### Fix
+Corrected the MPU6050 wiring/power setup and verified telemetry output in the Serial Monitor.
+
+### What I learned
+Testing each sensor individually before integration made debugging easier. The full telemetry system now behaves like a basic satellite health-monitoring unit by collecting multiple data streams and reporting system status.
