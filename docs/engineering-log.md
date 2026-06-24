@@ -116,3 +116,26 @@ Corrected the MPU6050 wiring/power setup and verified telemetry output in the Se
 
 ### What I learned
 Testing each sensor individually before integration made debugging easier. The full telemetry system now behaves like a basic satellite health-monitoring unit by collecting multiple data streams and reporting system status.
+
+## 6/23/2026
+### Goal
+Use the data from the ESP32 to graph plots.
+
+### Investigation
+- Using AI made numerous amounts of python files
+- Switched from Arduino IDE to powershell
+- Ran a program,  seriallogger.py, that creates a csv file 
+- Ran a program that uses the csv file to plot
+- Ran a program called anamoly detection to detect anamolies based on thresholds.
+
+### Conclusion
+-Using AI I was able to actually use the data from the csv file into something a human could read
+### What I learned
+-If the firmware code did not output into csv file format the python programs would not be able to read them
+- firmware is what the esp32 does, while the python programs use the results of the firmware
+
+## 6/23/2026
+### Goal
+- Document
+
+
