@@ -117,9 +117,9 @@ Corrected the MPU6050 wiring/power setup and verified telemetry output in the Se
 ### What I learned
 Testing each sensor individually before integration made debugging easier. The full telemetry system now behaves like a basic satellite health-monitoring unit by collecting multiple data streams and reporting system status.
 
-## 6/23/2026
+## 6/24/2026
 ### Goal
-Use the data from the ESP32 to graph plots.
+Use the data from the ESP32 to graph plots and document
 
 ### Investigation
 - Using AI made numerous amounts of python files
@@ -133,9 +133,5 @@ Use the data from the ESP32 to graph plots.
 ### What I learned
 -If the firmware code did not output into csv file format the python programs would not be able to read them
 - firmware is what the esp32 does, while the python programs use the results of the firmware
-
-## 6/23/2026
-### Goal
-- Document
 
 
