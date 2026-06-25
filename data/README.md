@@ -4,5 +4,3 @@
 ## FIles
 ### finalrun.csv
 - contains the raw data from the esp32.
-### analyzed_telemetry.csv
-- contains data that is categorized and formatted into light, temp, etc.
